@@ -15,27 +15,20 @@ h1, h3 {
 	position: relative;
 	background: #c9fdcf;
 	margin-top: 150px;
-	height: 390px;
+	height: 350px;
 }
 
-.inner-card-from {
+#photo-div {
+	height: 350px;
 	position: absolute;
-	bottom: 50px;
-	right: 15%;
-	z-index: 1;
-	display: none;
-}
-
-.inner-card-to {
-	position: absolute;
-	left: 20%;
-	z-index: 1;
-	display: none;
+	top: 0;
+	left: 0;
+	z-index: 10;
 }
 
 #photo {
 	width: 100%;
-	height: 390px;
+	height: 350px;
 	overflow: hidden;
 	z-index: 99;
 }
