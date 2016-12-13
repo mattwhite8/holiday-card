@@ -19,6 +19,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		fromHTML.innerHTML = "From: " + fromWho;
 	});
 
+	document.getElementById("send").addEventListener("click", function() {
+		alert("You sent it! Trust me!");
+	});
+
+	document.getElementById("print").addEventListener("click", function() {
+		alert("You printed it! Trust me!");
+	})
+
+
 });
 
 
