@@ -18,9 +18,23 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-sm-12 center-box" id="show-pic">
 				<div id="photo-div"><img src="assets/images/1.jpg" id="photo"></div>
-				<h2>To</h2>
-				<h2>From</h2>
+				<h2 id="to">To</h2>
+				<h2 id="from">From</h2>
+				<h3 id="content"></h3>
 			</div>
+		</div>
+
+		<div class="row">
+            <form class="form-inline col-md-5 col-md-offset-4">
+                <div class="form-group">
+                    <label for="exampleInputName2">Email:  </label>
+                    <input type="text" class="form-control" id="input2" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <div id="send" type="submit" class="btn btn-danger">Send</div>
+                    <div id="print" type="print" class="btn btn-primary">Print</div>
+                </div>
+            </form>
 		</div>
 	</div>
 	<script type="text/javascript" src="assets/js/script.js"></script>
